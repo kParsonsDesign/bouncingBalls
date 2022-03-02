@@ -25,8 +25,8 @@ function createBall() {
   // random start location
   let positionX = Math.floor(Math.random() * width);
   let positionY = Math.floor(Math.random() * height);
-  if (positionX > Xmax) positionX = Xmax;
-  if (positionY > Ymax) positionY = Ymax;
+  if (positionX > Xmax) positionX = Xmax - 1;
+  if (positionY > Ymax) positionY = Ymax - 1;
 
   // random ball speed
   let speed = getRandomInteger(1, 5);
@@ -71,7 +71,7 @@ function createBall() {
 
   // move ball function
   function moveBall() {
-    // move ball forward x-axis
+    // move ball x-axis
     if (xDirection) {
       positionX = positionX + speed;
     } else {
@@ -79,7 +79,7 @@ function createBall() {
     }
     div.style.left = positionX + 'px';
 
-    // move ball up down y-axis
+    // move ball up y-axis
     if (yDirection) {
       positionY = positionY + speed;
     } else {
