@@ -1,6 +1,6 @@
 # Bouncing Balls Project
 
-> A JavaScript based project with elements from Weeks 2, 3 & 7 of [MIT xPro Full Stack Certificate Program](https://executive-ed.xpro.mit.edu/professional-certificate-coding?advocate_email=kmp109%40gmail.com&utm_campaign=incentivized_referrals&utm_medium=personal_url&utm_source=referral&utm_content=SO%20-%20MIT%20xPRO%20-%20Professional%20Certificate%20in%20Coding&advocate_source=#referrals-email-capture-modal).
+> A JavaScript based project with elements from **Weeks 2, 3 & 7** of [MIT xPro Full Stack Certificate Program](https://executive-ed.xpro.mit.edu/professional-certificate-coding?advocate_email=kmp109%40gmail.com&utm_campaign=incentivized_referrals&utm_medium=personal_url&utm_source=referral&utm_content=SO%20-%20MIT%20xPRO%20-%20Professional%20Certificate%20in%20Coding&advocate_source=#referrals-email-capture-modal).
 
 <!--## Status?-->
 
