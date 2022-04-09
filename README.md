@@ -1,35 +1,52 @@
 # Bouncing Balls Project
 
-> A continuation of a project started in Week 2 of MIT's Full Stack Professional Certificate program.
+> A JavaScript based project with elements from Weeks 2, 3 & 7 of MIT's Full Stack Certificate program.
 
-<!--### Status?-->
+<!--## Status?-->
 
-### Description
-A project to recreate the PacMan game in JavaScript. Started from an assignment completed for MIT xPro Full Stack Web Development Program.
+## Description
+A fun "bouncing balls" project to simulate motion, detect edges, redirect motion, with a "factory" to create the balls.
 
-### Installation
+<!-- ### Project Goals: -->
+
+<!--
+## Installation
 Currently only available on web browsers.
-
-### Usage
-Have fun.
+-->
+## To Use
+This project can be viewed live at [kParsonsDesign.github.io/bouncingBalls](kParsonsDesign.github.io/bouncingBalls).
 
 <!--### Support-->
 
-### Roadmap
-Planning on adding movement controls, then hopefully include dot eating, a maze/map, score keeper, music, etc.
+## Roadmap
+Current simulator improvements:
+- Create an object to store individual ball information to keep track of balls.
+- Stop and restart individual balls
+- Make "Clear all Balls" button clear divs and timers (currently only clears divs)
+- Make bounding box sized based on screen size
+- Change timer to use requestAnimationFrame() to optimize for cpu capacity
+- Make balls move at different angles. Currently, the balls only move in a 45 degree angle pattern.
 
-### License
+Possible Game-like improvements
+- Implement HTML Canvas
+- Use svg images instead of divs
+- Have collision detection betwen balls
+- Have user be able to set ball angle and velocity based on mouse/finger drag
+- Create a "collector" and gain points
+
+
+## License
 [Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://github.com/kParsonsDesign/bouncingBalls/blob/main/LICENSE)
 
 This is a human-readable summary of (and not a substitute for) the license:
 
-#### You are free to:
+### You are free to:
 
 **Share** -- copy and redistribute the material in any medium or format
 
 **Adapt** -- remix, transform, and build upon the material
 
-#### Under the following terms:
+### Under the following terms:
 
 **Attribution** -- You must give *appropriate credit*, provide a link to the license, and *indicate if changes were made*. You may do so in any reasonable manner, but not in any way that suggests the lecensor endorses you or your use.
 
@@ -39,7 +56,7 @@ This is a human-readable summary of (and not a substitute for) the license:
 
 **No additional restrictions** -- You may not apply legal terms or *technological measures* that legally restrict others from doing anything the license permits.
 
-#### Notices:
+### Notices:
 
 You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable *exception or limitation*.
 
