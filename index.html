@@ -96,32 +96,20 @@
             </p>
             <p class="grid-container">
               <a class="btn btn-primary my-2" id="addBall">Add a Ball</a>
-              <!-- Stop all balls button 
-                <button id="stopBalls" style="margin: 5px" onclick="stopBalls()">
-                  Stop all Balls
-                </button>-->
-              <a class="btn btn-secondary my-2" id="clearBox"
-                >Clear all Balls</a
-              >
+              <a class="btn btn-secondary my-2" id="moveAllBalls">Move Balls</a>
+              <a class="btn btn-secondary my-2" id="stopAllBalls">Stop Balls</a>
+              <a class="btn btn-secondary my-2" id="clearBox">Clear all Balls</a>
             </p>
           </div>
         </div>
       </section>
 
       <section class="col-lg-8 col-11 mx-auto">
+        <!-- Balls Game Canvas -->
+        <!-- future update -->
+        <!-- <canvas id="gameCanvas" width="700" height="400" style="display: block; border: 1px solid black;" class="mx-auto"></canvas> -->
         <!-- Balls bounding box -->
-        <div
-          id="boundingBox"
-          style="
-            z-index: 1;
-            position: relative;
-            margin-left: auto;
-            margin-right: auto;
-            width: 700px;
-            height: 400px;
-            border: 1px solid black;
-          "
-        ></div>
+        <div id="boundingBox"></div>
       </section>
     </main>
 
@@ -131,6 +119,7 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    <script src="./simple-bouncing-balls.js"></script>
+    <!-- <script src="./simple-bouncing-balls.js"></script> -->
+    <script src="./bouncing-balls.js"></script>
   </body>
 </html>
