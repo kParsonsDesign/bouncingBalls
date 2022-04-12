@@ -7,25 +7,39 @@
 ## Description
 A fun "bouncing balls" project to simulate motion, detect edges, redirect motion, with a "factory" to create the balls.
 
-<!-- ### Project Goals: -->
+### Original Project Goals:
+- Create a JavaScript object to store individual ball information to keep track of balls.
+- Use a "factory" function to create individual balls with random:
+  - color
+  - size
+  - speed
+  - direction
+- Create a ball on button click
+- Move all the balls on button click
+- Balls should reverse direction when they hit boundary edge
+  - x direction and y direction should be stored and handled separately
+
+### Extra Features I Added:
+- Made a container box instead of having the balls bounce off window edges
+- Stop all the balls on button click
+- Clear all the balls on button click
+  - Clears DOM, balls object, and animation frame
+- Implemented `requestAnimationFrame()` to optimize redraw instead of `setTimeout()`
+- Added some responsive CSS for mobile handling
 
 <!--
 ## Installation
 Currently only available on web browsers.
 -->
 ## To Use
-This project can be viewed live at [kParsonsDesign.github.io/bouncingBalls/](kParsonsDesign.github.io/bouncingBalls/).
+This project can be viewed live at [kParsonsDesign.github.io/bouncingBalls/](https://kParsonsDesign.github.io/bouncingBalls/).
 
 <!--### Support-->
 
 ## Roadmap
 Current simulator improvements:
-- Create an object to store individual ball information to keep track of balls.
 - Stop and restart individual balls
-- Make "Clear all Balls" button clear divs and timers (currently only clears divs)
-- Make bounding box sized based on screen size
-- Change timer to use requestAnimationFrame() to optimize for cpu capacity
-- Make balls move at different angles. Currently, the balls only move in a 45 degree angle pattern.
+- Make bounding box resizable
 
 Possible Game-like improvements
 - Implement HTML Canvas
