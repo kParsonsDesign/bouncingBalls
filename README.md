@@ -14,7 +14,7 @@ A fun "bouncing balls" project to simulate motion, detect edges, redirect motion
 Currently only available on web browsers.
 -->
 ## To Use
-This project can be viewed live at [kParsonsDesign.github.io/bouncingBalls](kParsonsDesign.github.io/bouncingBalls).
+This project can be viewed live at [kParsonsDesign.github.io/bouncingBalls/](kParsonsDesign.github.io/bouncingBalls/).
 
 <!--### Support-->
 
